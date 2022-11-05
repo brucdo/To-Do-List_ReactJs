@@ -1,0 +1,40 @@
+.modal {
+  height: 200px;
+  width: 450px;
+  background-color: var(--color-three);
+  color: var(--color-one);
+  border: solid var(--color-four);
+  border-radius: 10px;
+  
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.close {
+  color: var(--color-four);
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  cursor: pointer;
+}
+
+.input-area{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+  width: 90%;
+}
+
+.input-text{
+  width: 70%;
+  height: 20px;
+  outline: none;
+}
+
+.input-text:focus{
+  border: 2px solid var(--color-four);
+}
